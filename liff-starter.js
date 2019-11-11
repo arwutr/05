@@ -397,7 +397,7 @@ function my9Function() {
       "type": "image_carousel",
       "columns": [
         {
-          "imageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/sticker/"+k+"/IOS/sticker@2x.png",
+          "imageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/sticker/"+Math.floor(Math.random()*18888)+"/IOS/sticker@2x.png",
           "action": {
             "type": "uri",
             "uri": "line://shop/detail/"+l
