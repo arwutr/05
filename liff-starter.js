@@ -9,7 +9,7 @@ function RandomSticker() {
       "type": "image_carousel",
       "columns": [
         {
-          "imageUrl": ""+Math.floor(Math.random()*18888),
+          "imageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/sticker/"+Math.floor(Math.random()*18888)+"/IOS/sticker@2x.png",
           "action": {
             "type": "uri",
             "uri": "https://line.me/R/app/1553266645-KJ5VVlE1"
