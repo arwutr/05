@@ -400,7 +400,7 @@ function my9Function() {
           "imageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/sticker/"+Math.floor((Math.random() * 10342) + 2148)+"/android/sticker.png",
           "action": {
             "type": "uri",
-            "uri": "https://line.me/R/app/1583925164-DzVnn55B"
+            "uri": "https://line.me/R/app/1583925164-emW44MM7"
           }
         }
       ]
