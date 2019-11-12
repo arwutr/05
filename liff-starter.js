@@ -89,7 +89,7 @@ function my1Function() {
         "uri": "https://line.me/R/app/1553266645-EX300kAj?code=stk&stickerId="+a
       }
     ],
-    "thumbnailImageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/product/"+a+"/android/main.png",
+    "thumbnailImageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/product/"+a+"/iphone/main@2x.png",
     "imageAspectRatio": "square",
       "imageSize": "contain",
 "wrap": true,
