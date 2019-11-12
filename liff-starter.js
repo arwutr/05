@@ -799,7 +799,7 @@ var z = document.getElementById("smytext").value;
   location.replace("https://store.line.me/search/th?q="+z)
 }
 function mymetaFunction() {
-  var x = document.getElementById("metaInput").value;
+  var x = document.getElementById("myText1").value;
   location.replace("http://dl.stickershop.line.naver.jp/products/0/0/1/"+x+"/android/productInfo.meta");
 }
 
