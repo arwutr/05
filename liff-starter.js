@@ -116,7 +116,7 @@ function mymetaFunction() {
 
 
 function my2Function() {
-  var p = document.getElementById("myText3").value;
+  var p = document.getElementById("myText1").value;
   document.getElementById('pstkk').addEventListener('click', function () {
         liff.sendMessages([{
   "type": "template",
