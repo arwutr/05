@@ -106,6 +106,13 @@ function my1Function() {
 
 
 
+function mymetaFunction() {
+  var z = document.getElementById("myText1").value;
+  location.replace("http://dl.stickershop.line.naver.jp/products/0/0/1/"+z+"/android/productInfo.meta");
+}
+
+
+
 
 function my2Function() {
   var p = document.getElementById("myText3").value;
@@ -803,14 +810,6 @@ function RemyFunction() {
 var z = document.getElementById("smytext").value;
   location.replace("https://store.line.me/search/th?q="+z)
 }
-
-
-
-function mymetaFunction() {
-  var z = document.getElementById("myText1").value;
-  location.replace("http://dl.stickershop.line.naver.jp/products/0/0/1/"+x+"/android/productInfo.meta");
-}
-
 
 
 
