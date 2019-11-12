@@ -114,7 +114,7 @@ function mymetaFunction() {
 
 
 function randomchat(){
-    var b = prompt('พิมพ์เลขสองหลักที่คุณต้องการ เช่น 0-10');
+    var b = document.getElementById("myText1").value;
     var c = Math.floor(Math.random() * 11);
 document.getElementById('randomchat').addEventListener('click', function () {
     liff.sendMessages([{
