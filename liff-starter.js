@@ -81,20 +81,20 @@ function my1Function() {
       {
         "type": "uri",
         "label": "คลิกเพื่อดูรายละเอียด",
-        "uri": "line://shop/detail/"+q
+        "uri": "line://shop/detail/"+z
       },
       {
         "type": "uri",
         "label": "แชร์",
-        "uri": "https://line.me/R/app/1553266645-EX300kAj?code=stk&stickerId="+q
+        "uri": "https://line.me/R/app/1553266645-EX300kAj?code=stk&stickerId="+z
       }
     ],
-    "thumbnailImageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/product/"+q+"/IOS/main_animation@2x.png",
+    "thumbnailImageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/product/"+z+"/IOS/main_animation@2x.png",
     "imageAspectRatio": "square",
       "imageSize": "contain",
 "wrap": true,
     "title": "Present by armtrue",
-    "text": "รหัส_"+q,
+    "text": "รหัส_"+z,
   }
 }]).then(function () {
             liff.closeWindow();
