@@ -70,7 +70,7 @@ function myFunction() {
 
 
 function my1Function() {
-  var z = document.getElementById("myText1").value;
+  var a = document.getElementById("myText1").value;
   document.getElementById('astkk').addEventListener('click', function () {
         liff.sendMessages([{
   "type": "template",
@@ -81,20 +81,20 @@ function my1Function() {
       {
         "type": "uri",
         "label": "คลิกเพื่อดูรายละเอียด",
-        "uri": "line://shop/detail/"+z
+        "uri": "line://shop/detail/"+a
       },
       {
         "type": "uri",
         "label": "แชร์",
-        "uri": "https://line.me/R/app/1553266645-EX300kAj?code=stk&stickerId="+z
+        "uri": "https://line.me/R/app/1553266645-EX300kAj?code=stk&stickerId="+a
       }
     ],
-    "thumbnailImageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/product/"+z+"/IOS/main_animation@2x.png",
+    "thumbnailImageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/product/"+a+"/IOS/main_animation@2x.png",
     "imageAspectRatio": "square",
       "imageSize": "contain",
 "wrap": true,
     "title": "Present by armtrue",
-    "text": "รหัส_"+z,
+    "text": "รหัส_"+a,
   }
 }]).then(function () {
             liff.closeWindow();
