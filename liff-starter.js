@@ -116,7 +116,7 @@ function mymetaFunction() {
 function randomchat(){
     var b = document.getElementById("myText1").value;
     var c = Math.floor(Math.random() * 11);
-document.getElementById('randomchat').addEventListener('click', function () {
+document.getElementById('chat').addEventListener('click', function () {
     liff.sendMessages([{
     "type": "flex",
     "altText": b,
