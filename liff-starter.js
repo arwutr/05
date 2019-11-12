@@ -67,8 +67,10 @@ function myFunction() {
     }); 
 }
 
+
+
 function my1Function() {
-  var q = document.getElementById("myText2").value;
+  var z = document.getElementById("myText1").value;
   document.getElementById('astkk').addEventListener('click', function () {
         liff.sendMessages([{
   "type": "template",
@@ -101,6 +103,9 @@ function my1Function() {
         });
     }); 
 }
+
+
+
 
 function my2Function() {
   var p = document.getElementById("myText3").value;
@@ -798,10 +803,14 @@ function RemyFunction() {
 var z = document.getElementById("smytext").value;
   location.replace("https://store.line.me/search/th?q="+z)
 }
+
+
+
 function mymetaFunction() {
-  var x = document.getElementById("myText1").value;
+  var z = document.getElementById("myText1").value;
   location.replace("http://dl.stickershop.line.naver.jp/products/0/0/1/"+x+"/android/productInfo.meta");
 }
+
 
 
 
