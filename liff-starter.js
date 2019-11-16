@@ -115,7 +115,7 @@ function mymetaFunction() {
 
 function my11Function() {
   var b = document.getElementById("myText1").value;
-  document.getElementById('astkk11').addEventListener('click', function () {
+  document.getElementById('stkk').addEventListener('click', function () {
         liff.sendMessages([{
 
   "type": "template",
