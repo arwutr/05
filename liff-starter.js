@@ -136,7 +136,6 @@ function my11Function() {
             "align": "center",
             "size": "5xl",
             "color": "#A52A2A",
-            "flex": 0
           }
         ]
       }
