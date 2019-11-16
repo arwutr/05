@@ -119,7 +119,7 @@ function my11Function() {
         liff.sendMessages([{
 
   "type": "template",
-  "BY ar,true",
+  "altText": "by armtrue",
   "template": {
     "type": "carousel",
     "actions": [],
