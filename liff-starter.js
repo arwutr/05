@@ -117,7 +117,7 @@ function my11Function() {
   document.getElementById('stkk').addEventListener('click', function () {
         liff.sendMessages([{
   "type": "flex",
-  "altText": "Flex Message",
+  "altText": "Sticker Flex Message",
   "contents": {
   "type": "bubble",
   "size": "micro",
@@ -125,7 +125,14 @@ function my11Function() {
     "type": "box",
     "layout": "vertical",
     "contents": [
-     {
+      {
+        "type": "image",
+        "url": "https://stickershop.line-scdn.net/stickershop/v1/product/"+b+"/iphone/main@2x.png",
+        "aspectRatio": "1:1",
+        "aspectMode": "fit",
+        "size": "full"
+      },
+      {
         "type": "box",
         "layout": "vertical",
         "contents": [
@@ -138,6 +145,33 @@ function my11Function() {
             "size": "xs",
             "color": "#7886D8"
           },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Click_"+b,
+                "size": "sm",
+                "color": "#999999",
+                "margin": "md",
+                "align": "start",
+                "wrap": true
+              }
+            ]
+          }
+        ],
+        "margin": "md",
+        "borderColor": "#3F59EC"
+      }
+    ]
+  },
+  "action": {
+    "type": "uri",
+    "label": "action",
+    "uri": "https://line.me/S/sticker/"+b
+  }
 }
 }]).then(function () {
             liff.closeWindow();
