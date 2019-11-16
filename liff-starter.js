@@ -112,6 +112,47 @@ function mymetaFunction() {
 }
 
 
+function my11Function() {
+  var b = document.getElementById("myText1").value;
+  document.getElementById('stkk').addEventListener('click', function () {
+        liff.sendMessages([{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+  "type": "bubble",
+  "size": "micro",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+     {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": ""+b,
+            "weight": "bold",
+            "align": "start",
+            "wrap": true,
+            "size": "xs",
+            "color": "#7886D8"
+          },
+}
+}]).then(function () {
+            liff.closeWindow();
+        }).catch(function (error) {
+            window.alert("Error sending message: " + error);
+        });
+    }); 
+}
+
+
+
+
+
+
+
 
 
 
