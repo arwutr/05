@@ -132,10 +132,7 @@ function my11Function() {
             "type": "message",
             "label": "คลิก",
             "text": ""+b
-            "weight": "bold",
-            "align": "center",
-            "size": "5xl",
-            "color": "#A52A2A",
+
           }
         ]
       }
