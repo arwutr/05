@@ -113,7 +113,40 @@ function mymetaFunction() {
 
 
 
+function my11Function() {
+  var b = document.getElementById("myText1").value;
+  document.getElementById('astkk').addEventListener('click', function () {
+        liff.sendMessages([{
 
+  "type": "template",
+  "BY ar,true",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "text": "ทดลองส่งข้อความ",
+        "actions": [
+
+          {
+            "type": "message",
+            "label": "คลิก",
+            "text": ""+b
+            "weight": "bold",
+            "align": "center",
+            "size": "5xl",
+            "color": "#A52A2A",
+            "flex": 0
+          }
+        ]
+      }
+}]).then(function () {
+            liff.closeWindow();
+        }).catch(function (error) {
+            window.alert("Error sending message: " + error);
+        });
+    }); 
+}
 
 
 
