@@ -113,40 +113,6 @@ function mymetaFunction() {
 
 
 
-function my11Function() {
-  var b = document.getElementById("myText1").value;
-  document.getElementById('stkk11').addEventListener('click', function () {
-        liff.sendMessages([{
-
-  "type": "template",
-  "altText": "by armtrue",
-  "template": {
-    "type": "carousel",
-    "actions": [],
-    "columns": [
-      {
-        "text": "ทดลองส่งข้อความ",
-        "actions": [
-
-          {
-            "type": "message",
-            "label": "คลิก",
-            "text": ""+b
-
-          }
-        ]
-      }
-}]).then(function () {
-            liff.closeWindow();
-        }).catch(function (error) {
-            window.alert("Error sending message: " + error);
-        });
-    }); 
-}
-
-
-
-
 
 
 
