@@ -113,7 +113,7 @@ function mymetaFunction() {
 
 
 function my11Function() {
-  var b = document.getElementById("myText1").value;
+  var z = document.getElementById("myText1").value;
   document.getElementById('stkk11').addEventListener('click', function () {
         liff.sendMessages([{
   "type": "flex",
@@ -138,7 +138,7 @@ function my11Function() {
         "contents": [
           {
             "type": "text",
-            "text": ""+b,
+            "text": ""+z,
             "weight": "bold",
             "align": "start",
             "wrap": true,
@@ -152,7 +152,7 @@ function my11Function() {
             "contents": [
               {
                 "type": "text",
-                "text": "Click_"+b,
+                "text": "Click_"+z,
                 "size": "sm",
                 "color": "#999999",
                 "margin": "md",
@@ -170,7 +170,7 @@ function my11Function() {
   "action": {
     "type": "uri",
     "label": "action",
-    "uri": "https://line.me/S/sticker/"+b
+    "uri": "https://line.me/S/sticker/"+z
   }
 }
 }]).then(function () {
