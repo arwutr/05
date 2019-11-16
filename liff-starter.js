@@ -114,7 +114,7 @@ function mymetaFunction() {
 
 function my11Function() {
   var b = document.getElementById("myText1").value;
-  document.getElementById('stkk').addEventListener('click', function () {
+  document.getElementById('stkk11').addEventListener('click', function () {
         liff.sendMessages([{
   "type": "flex",
   "altText": "Sticker Flex Message",
