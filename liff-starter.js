@@ -114,8 +114,8 @@ function mymetaFunction() {
 
 
 function my11Function() {
-  var b = document.getElementById("myText1").value;
-  document.getElementById('stkk').addEventListener('click', function () {
+  var z = document.getElementById("myText1").value;
+  document.getElementById('stkk11').addEventListener('click', function () {
         liff.sendMessages([{
 
   "type": "template",
@@ -131,7 +131,7 @@ function my11Function() {
           {
             "type": "message",
             "label": "คลิก",
-            "text": ""+b
+            "text": ""+z
 
           }
         ]
